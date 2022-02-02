@@ -1,0 +1,63 @@
+body {
+	font-family: sans-serif;
+	background: whitesmoke;
+}
+
+.login, .registrasi {
+	position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+	width: 350px;
+	padding: 30px 50px;
+	border: 1px solid #ccc;
+	background: white;
+}
+
+label {
+	font-size: 14px;
+	display: block;
+	margin-bottom: 5px;
+}
+
+input { 
+	box-sizing: border-box;
+	width: 100%;
+	padding: 10px;
+	font-size: 9pt;
+	margin-bottom: 20px;
+ }
+
+button {
+	padding: 10px 20px;
+	width: 100%;
+	border: none;
+	font-size: 11pt;
+	border-radius: 3px;
+	color: white;
+	background: #46de4b;
+	cursor: pointer;
+}
+
+ul li {
+	list-style: none;
+}
+
+h1 {
+	text-align: center;
+	text-transform: uppercase;
+	margin-top: 10px;
+    margin-bottom: 30px;
+}
+
+.link {
+	color: #232323;
+	font-size: 9pt;
+	text-align: center;
+	margin-top: 15px;
+}
+
+p {
+	font-size: 12px;
+	text-align: center;
+}
